@@ -13,16 +13,20 @@
     background-color: rgb(100, 119, 237);
     height: 350px;
 
+
 }
 
 .bleu{
     background-color: rgb(38, 119, 165);
-
+    text-align: center;
+    width: 50%;
 }
 
 .verte{
-    background-color: rgb(71, 225, 135);
 
+    background-color: rgb(71, 225, 135);
+    text-align: center;
+    width: 50%;
 
 }
 

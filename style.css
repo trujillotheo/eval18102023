@@ -1,38 +1,58 @@
-.menu {
-
-    background-color: rgb(166, 41, 42);
-    color: rgb(250, 15, 19);
-    text-align: center;
-    font-size: 40px;
-    font-weight: 900;
-    height:75px;
+.menu {                                     /* Style pour le grand titre */
+    background-color: rgb(166, 41, 42); /* couleur de la div */
+    color: rgb(250, 15, 19);            /* couleur de texte */
+    text-align: center;                     /* le texte est centré */
+    font-size: 40px;                        /* taille de texte 40pixel */
+    font-weight: 900;                       /* texte en gras */
+    height:75px;                            /* hauteur de la div 75pixel */
+    margin-top: 20px;                       /* petite marge top pour laisser un espace avec le dessus */
   }
 
-.corps{
-    margin-top: 20px;
-    background-color: rgb(100, 119, 237);
-    height: 350px;
-
+.corps{                                     /* style pour la div du milieu */
+    margin-top: 20px;                       
+    background-color: rgb(100, 119, 237); 
+    height: 350px;                          
 
 }
 
-.bleu{
+.bleu{                                      /* style pour la div avec la fleur dedans */
+    float:left;                             /* permet de mettre 2 div lune a coté de l'autre avec celle ci a gauche */
     background-color: rgb(38, 119, 165);
     text-align: center;
-    width: 50%;
+    width: 50%;                             /* largeur de la div à 50% de l'élément dans lequel elle est */
 }
 
-.verte{
-
+.verte{                                     /* style pour la div avec le tableau dedans */
+    float:right;                            /* permet de mettre 2 div lune a coté de l'autre avec celle ci a droite */
     background-color: rgb(71, 225, 135);
     text-align: center;
     width: 50%;
 
 }
 
-.footer{
+.tableau{                                       /* style pour la structure du tableau */
+    border:solid;                               /* bordure de type solid ( trait ) */
+    border-top-color: rgb(206, 213, 209);      /* j'ai mis les bordures du tableau  en haut et gauche en gris et en bas et droite en noir pour imiter le style du tableu de la capture */
+    border-left-color: rgb(206, 213, 209);
+    border-right-color: black;
+    border-bottom-color: black;
+    border-width: 1px;                          /* epaisseur de bordure */
+}
+.celule{
+    border:solid;
+    border-right-color: rgb(206, 213, 209);         /* j'ai mis les bordures des cellules en haut et gauche en noir et en bas et droite en gris pour imiter le style du tableu de la capture */
+    border-bottom-color: rgb(206, 213, 209);
+    border-left-color: black;
+    border-top-color: black;
+    border-width: 1px;
+    padding: 10px;                                  /* marge intérieure de 10px */
+}   
+
+
+.footer{                                        /* style pour le footer */
     background-color: rgb(183, 183, 107);
     height: 100px;
     text-align: center;
 
 }
+

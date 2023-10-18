@@ -5,21 +5,37 @@
     <title>cv</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
+
 <body>
-    <div class="menu">
+    <div class="menu">  <!-- titre-->
         Je suis le plus gros titre HTML
     </div>
-    <div class="corps">
-        Debut de paragraphe : Je suis un site composé de 3 div principales Avec les class : Menu ,Corps et Footer. Le corps possède une propriété qui permet d'avoir une certaine hauteur de 350px. Le footer est à 100px et le menu 75. à la fin de ce paragraphe il y aura 2 div de contenu . fin de paragraphe
+    <div class="corps"> <!--corps de la page qui contient le texte-->
+        Debut de paragraphe : Je suis un site composé de 3 div principales Avec les class : Menu ,Corps et Footer. Le corps possède une propriété qui permet d'avoir une certaine hauteur de 350px. Le footer est à 100px et le menu 75. à la fin de ce paragraphe il y aura 2 div de contenu . fin de paragraphe <br/><br/>
         <div class="bleu">
             Dans cette div Bleu voici une image<br/>
             <img src="fleur.PNG" height="150px">
         </div>
         <div class="verte">
             Dans cette div verte Voici un petit tableau avec une classe table
+            
+            
+            <table class="tableau">  <!--le talbeau--> 
+                <tr>    <!--premiere ligne de tableau-->
+                <td class="celule">Celule 1 avec une marge interieur de 10px</td>
+                <td class="celule" rowspan="2">Je suis une celule fusionné </td> <!--rowspan permet de fusionner des cellules verticalement-->
+                </tr>
+
+                <tr>    <!--2 eme ligne de talbuea-->
+                 <td class="celule">Celule 3</td>
+                </tr>
+            </table>
+        
+        
         </div>
     </div>
-    <div class="footer">
+    <div class="footer"> <!--pied de page qui contient le lien google-->
         <a href="https://www.google.fr/">je suis un lien vers google</a>
     </div>
 
